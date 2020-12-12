@@ -22,10 +22,12 @@ public class LayoutConstants {
 	public static final int barWidth = 50;
 
 	public static final int barSpacing = 20;
-
+	
 	public static final Color[] courseColours = { Color.BLUE, Color.RED,
 			Color.YELLOW, Color.GREEN, Color.BLACK, Color.CYAN, Color.MAGENTA,
 			Color.ORANGE, Color.PINK };
+	
+	public static Color[] subjectColors = courseColours;
 	
 	public static void paintBarChartOutline(Graphics g, int noOfBars) {
 		g.setColor(Color.black);
